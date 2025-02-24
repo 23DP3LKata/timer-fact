@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer & Facts</title>
+    <link rel="icon" href="https://i.pinimg.com/736x/25/65/df/2565dfdde2c78a49425366a4490c2942.jpg">
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.pinimg.com/736x/25/65/df/2565dfdde2c78a49425366a4490c2942.jpg">
+        </div>
+        <nav>
+            <a href="#home">Sākums</a>
+            <a href="#timer">Taimers</a>
+            <a href="#fact">Fakti</a>
+            <a href="#contacts">Kontakti</a>
+        </nav>
+    </header>
+    
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div>
+            <h2>Taimeris & Fakts</h2>
+        </div>
+    </section>
+
+    <!-- Timer -->
+    <section class="interactive" id="timer">
+        <h2>Atpakaļskaitīšanas taimeris</h2>
+        <label for="timerInput">Izvēlies laiku sekundēs:</label>
+        <input type="number" id="timerInput" min="1" value="10">
+        <button onclick="startCount()">Sākt Taimeri</button>
+        <button onclick="stopCount()">Pārtraukt Taimeri</button>
+        <p>Laiks līdz pabeigšanai: <span id="countdown">0</span> sekundes</p>
+    </section>
+
+    <!-- Facts -->
+    <section class="interactive" id="fact">
+        <h2>Uzzini jaunu kaķu faktu!</h2>
+        <button onclick="getCatFact()">Ģenerēt Faktu</button>
+        <p class="cat-fact" id="catFact">Nospied pogu, lai iegūtu jaunu faktu!</p>
+    </section>
+
+    <!-- Contacts -->
+    <section class="contacts" id="contacts">
+        <h2>Kontakti</h2>
+        <p>Email: A231086LK@rvt.lv</p>
+        <p>GitHub: 23DP3LKata</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Leonīds Katane</p>
+    </footer>
+    
+    <script src="src/js/script.js"></script>
+</body>
+</html>

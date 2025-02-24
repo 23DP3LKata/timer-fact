@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #8AA29E;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Logo */
+.logo {
+    width: 8%;
+}
+.logo img {
+    width: 100px;
+    border-radius: 50px;
+    padding: 6px;
+    vertical-align: middle;
+}
+
+
+/* Navigacija */
+nav {
+    position: absolute;
+    left: 40%;
+}
+nav a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Hero */
+.hero {
+    background-image: url('https://img.freepik.com/premium-vector/een-doorlopende-lijntekening-van-zandloper-vintage-timer-als-countdown-concept-in-eenvoudige-linear_306763-689.jpg?w=1380');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Interactive */
+.interactive, .contacts {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    flex-grow: 1;
+}
+button {
+    padding: 20px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #8AA29E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+button:hover {
+    background: #5a6967;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#countdown {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.cat-fact {
+    padding: 20px;
+    background: #ddd;
+    margin: 20px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background: #8AA29E;
+    color: black;
+    margin-top: auto;
+}
